@@ -2,21 +2,31 @@
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data
-const collectEmployees = function() {
+const collectEmployees = function(firstName, lastName) {
   // TODO: Get user input to create and return an array of employee objects
-const workers = ["Noah", "John", "Michael"];
-console.log(workers);
+  const employee = ["Noah Kelley", "John Doe"];
+
+
+  
+
+
+
 }
 
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+  let salary;
+  avg = (salary[0] + salary[1] + salary[2] / 3);
+  console.log("The average employee salary between the employee is:"+ (avg) + ".");
 }
+console.log("The average employee salary between the employee is:"+ (avg) + ".");
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  return console.log("Congratulations to" + Math.random(employee) + "our random drawing winner");  
 }
 
 /*
